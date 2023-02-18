@@ -1,0 +1,84 @@
+/* hero background image */
+.main_image {
+    height:100vh;
+    background: url('/images/main.jpg');
+    background-size:cover;
+    position:relative;
+    
+}
+/* text css above main image*/
+.main_title {
+    font-size: 4.5rem;
+}
+.main_desc {
+    font-size: 2rem;
+}
+.main_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* about section image css */
+.about_me_img {
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+/* display background color black on navbar scroll */
+.navbarDark {
+    background-color: #FFFFFF;
+    transition: background-color 0.5s;
+}
+
+/* social media icons styling */
+.social {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-linkedin:hover, .fa-github:hover{
+    color: #FFFFFF;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* spacing between sections */
+
+#about, #projects{
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#projects {
+    padding-bottom: 4rem;
+}
+
+
+/* navbar */
+.navbar {
+    position: absolute;
+}
+
+.navbar a {
+    font-size: 1.2rem;
+    color: #000000;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.navbar a:hover{
+    scale: 1.1;
+    color: #000000;
+    
+}
+
