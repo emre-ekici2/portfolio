@@ -112,3 +112,8 @@ div.project_detail{
     padding: 50px 10px;
     margin-bottom: 10px;
 }
+
+.carousel{
+    border: #000000 2px solid;
+    box-shadow: 5px 5px 5px darkgrey;
+}
